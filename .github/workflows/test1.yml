@@ -1,7 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
 name: pierwszy_przeplyw
-
 # Controls when the workflow will run
 #on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
@@ -10,6 +9,8 @@ name: pierwszy_przeplyw
 #on:
 #  schedule:
 #    - cron: '*/2 * * * *'
+
+on:
   workflow_dispatch:
     inputs:
       wybor_klienta:
